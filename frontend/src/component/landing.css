@@ -1,0 +1,35 @@
+.landing-page {
+    background: url('../assets/landingImage.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.home-quote {
+    font-size: clamp(2rem, 5vw, 4rem);
+    max-width: 500px;
+    color: antiquewhite;
+    margin-top: 11rem;
+    margin-left: 10rem;
+}
+
+.landing-login {
+    padding: 1rem 2.5rem;
+    background-color: chocolate;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
